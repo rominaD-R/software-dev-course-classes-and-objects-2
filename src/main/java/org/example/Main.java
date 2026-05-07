@@ -30,7 +30,8 @@ public class Main {
         } else if (option.equals("4")) {
             System.exit(0);
         } else {
-            System.out.println("Invalid option");
+            System.out.println("Invalid option. Try again: ");
+            mainMenu();
         }
     }
 
